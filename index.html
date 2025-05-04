@@ -505,55 +505,52 @@ Addition to frontend development, I'm an AI Researcher, constantly exploring new
         </section>
 
         <!--Contacts-->
-        <!-- Contacts -->
-<section class="contact" id="contact">
-  <div class="contact-title">
-    <h5>— contact me</h5>
-    <h2>🚀Let's collaborate</h2>
-  </div>
-  <div class="container">
-    <div class="sub">
-      Got a question, proposal or project or want to work <br />
-      together on something? Feel free to reach out.
-    </div>
-    <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" />
-      <div class="input-row">
-        <div class="side">
-          <label for="name">Your Name</label>
-          <input
-            placeholder="Enter Your name"
-            name="name"
-            id="name"
-            type="text"
-            required
-          />
-        </div>
-        <div class="side">
-          <label for="email">Your Email</label>
-          <input
-            placeholder="Enter Your email address"
-            name="email"
-            id="email"
-            type="email"
-            required
-          />
-        </div>
-      </div>
-      <div class="textarea">
-        <label for="message">Your Message</label>
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Hi, I think we need you to work on this particular product. Reach out as soon as you can"
-          required
-        ></textarea>
-      </div>
-      <button type="submit">Send Message.</button>
-    </form>
-  </div>
-</section>
-
+        <section class="contact" id="contact">
+          <div class="contact-title">
+            <h5>— contact me</h5>
+            <h2>🚀Let's collaborate </h2>
+          </div>
+          <div class="container">
+            <div class="sub">
+              Got a question, proposal or project or want to work <br />
+              together on something? Feel free to reach out.
+            </div>
+            <form name="contact"  action="POST" data-netlify="true">
+              <div class="input-row">
+                <div class="side"
+                  ><label for="name">Your Name</label
+                  ><input
+                    placeholder="Enter Your name"
+                    name="name"
+                    id="name"
+                    type="text"
+                    required=""
+                    value=""
+                /></div>
+                <div class="side"
+                  ><label for="email">Your Email</label
+                  ><input
+                    placeholder="Enter Your email address"
+                    name="email"
+                    id="email"
+                    type="email"
+                    required=""
+                    value=""
+                /></div>
+              </div>
+              <div class="textarea">
+                <label for="message">Your Message</label
+                ><textarea
+                  name="message"
+                  id="message"
+                  placeholder="Hi, I think we need you to work on this particular product. Reach out as soon as you can"
+                  required=""
+                ></textarea>
+              </div>
+              <button type="submit">Send Message.</button>
+            </form>
+          </div>
+        </section>
       </main>
 
       <footer class="footer">
