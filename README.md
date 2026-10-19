@@ -1,3 +1,29 @@
+# Muhammad Irtaza Ali — Portfolio
+
+A static portfolio presenting selected AI applications, web projects, programming coursework, and contact information.
+
+**Category:** Personal website
+
+## Start here
+
+The homepage is `index.html`; the dedicated About page is `about/index.html`. No npm build is required. Use `python -m http.server 8000` from the repository root for a local preview. Publishing to the connected Netlify branch may deploy automatically.
+
+## Repository map
+
+- [`about/`](./about)
+- [`assets/`](./assets)
+- [`index.html`](./index.html)
+
+## Review and reproducibility
+
+This guide describes the repository structure and documented implementation. It does not certify a successful installation, a passing test suite, production readiness, or claimed model accuracy. Keep individual contributions, upstream credits, data sources, and verified results with the relevant implementation.
+
+---
+
+## Existing implementation notes
+
+The original project notes are retained below. Where commands or status differ, use the repository paths and start instructions above.
+
 # **🌐 Muhammad Irtaza Ali - Portfolio Website**
 
 Welcome to the source code of my **personal portfolio website**. This website highlights my skills, projects, and contact details using modern web technologies.
